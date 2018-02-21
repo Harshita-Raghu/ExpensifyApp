@@ -1,0 +1,3 @@
+#Git command
+
+git init
