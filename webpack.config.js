@@ -31,10 +31,11 @@ module.exports=(env)=>{
                                 }
                             },
                             {
-                                loader:'sass-loader'
-                            },
-                            'sass-loader'    
-                       
+                                loader:'sass-loader',
+                                options:{
+                                    sourceMap:true
+                                }
+                            }        
                     ]
                 })
                 }]
